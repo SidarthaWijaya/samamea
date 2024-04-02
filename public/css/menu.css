@@ -1,0 +1,60 @@
+.search-container {
+  padding: 1rem;
+}
+.search-container form {
+  display: table;
+  width: 100%;
+  border: 2px solid #4f74a1;
+  border-radius: 7px;
+}
+.search-container input[type=text] {
+  padding: 0.5rem 1rem;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 85%;
+  border-radius: 7px;
+}
+.search-container button {
+  float: right;
+  padding: 0.5rem 1rem;
+  background: #4f74a1;
+  font-size: 17px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  width: 15%;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #555555;
+}
+.menu-list a:visited {
+  color: #555555;
+}
+.menu-list a .menu.row {
+  background-color: #e8edf3;
+  border-radius: 7px;
+}
+.menu-list a .menu .brief {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.menu-list a .menu .pic {
+  border-radius: 7px;
+}
+.menu-list a .menu .price {
+  font-size: 1.15rem;
+}
+.menu a{
+  color: black;
+  text-decoration: none;
+  border: none;
+}

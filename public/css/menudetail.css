@@ -1,0 +1,26 @@
+footer {
+  padding: 0.5rem;
+}
+
+.number input {
+  font-size: 1.5rem;
+  width: 75px;
+  border: none;
+}
+.number .minus, .number .plus {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  line-height: 19px !important;
+  font-size: 30px;
+  color: #4f74a1;
+}
+
+.parallax {
+  background-image: url(https://arasatu.com/images/team/PR.jpg);
+  height: 40vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
